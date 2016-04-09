@@ -1,7 +1,5 @@
 // Take the contents of the sonnet div and place it in a variable
 var sonnet = document.getElementById("sonnet").innerHTML;
-// console.log("sonnet = ", sonnet);
-
 
 // Find and output the starting position of the word "orphans"
 var orphans = sonnet.indexOf("orphans");
